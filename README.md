@@ -1,5 +1,5 @@
 <h1>HyperSense</h1>
-![hypersense](https://github.com/Arham-Abbas/HyperSense/assets/163567643/46ed1312-e474-4b72-8ee7-d2873af444c7)
+![Logo](https://github.com/Arham-Abbas/HyperSense/assets/163567643/994bf8a6-a9c5-438b-a2b4-244211603c67)
 <h2>Description</h2>
 <p>This application offers essential features for car drivers including:
 <br>
