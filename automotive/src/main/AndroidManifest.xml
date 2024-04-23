@@ -39,11 +39,15 @@
         <meta-data
             android:name="com.android.automotive"
             android:resource="@xml/automotive_app_desc" />
+        <meta-data
+            android:name="androidx.car.app.minCarApiLevel"
+            android:value="4" />
         <activity
             android:name="androidx.car.app.activity.CarAppActivity"
             android:exported="true"
             android:launchMode="singleTask"
             android:theme="@android:style/Theme.DeviceDefault.NoActionBar">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
