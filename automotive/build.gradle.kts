@@ -49,6 +49,8 @@ dependencies {
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
+    implementation(libs.objectDetection)
+    implementation(libs.tensorflowLite)
     implementation(libs.androidx.app)
     implementation(libs.androidx.app.automotive)
     implementation(libs.transportation.consumer)
