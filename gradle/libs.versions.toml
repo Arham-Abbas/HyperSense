@@ -1,6 +1,6 @@
 [versions]
 agp = "8.3.2"
-gradle = "3.6.4"
+gradle = "3.7"
 kotlin = "1.9.0"
 coreKtx = "1.13.1"
 junit = "4.13.2"
@@ -23,7 +23,7 @@ androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "j
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
 androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
 objectDetection = { module = "com.google.mlkit:object-detection", version.ref = "objectDetection" }
-tensorflowLite = { module = "org.tensorflow:tensorflow-lite" , version.ref = "tensorflowLite"}
+tensorflowLite = { module = "org.tensorflow:tensorflow-lite", version = "2.16.1" }
 androidx-app = { group = "androidx.car.app", name = "app", version.ref = "app" }
 androidx-app-automotive = { group = "androidx.car.app", name = "app-automotive", version.ref = "appAutomotive" }
 androidx-app-testing = { group = "androidx.car.app", name = "app-testing", version.ref = "appTesting" }
