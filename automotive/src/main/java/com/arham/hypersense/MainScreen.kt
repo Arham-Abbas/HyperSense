@@ -22,5 +22,4 @@ class MainScreen(carContext: CarContext) : Screen(carContext) {
             .setHeaderAction(Action.APP_ICON)
             .build()
     }
-
 }

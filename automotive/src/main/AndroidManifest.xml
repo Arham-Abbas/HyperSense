@@ -20,6 +20,9 @@
         android:name="android.hardware.screen.landscape"
         android:required="false"
         />
+    <uses-feature android:name="android.hardware.telephony" android:required="false" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
 
     <application
         android:appCategory="audio"
@@ -34,6 +37,7 @@
             <intent-filter>
                 <action android:name="androidx.car.app.CarAppService" />
                 <category android:name="androidx.car.app.category.NAVIGATION"/>
+                <category android:name="androidx.car.app.category.IOT"/>
             </intent-filter>
         </service>
         <meta-data
